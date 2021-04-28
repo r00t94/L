@@ -1,4 +1,5 @@
 #!/bin/bash 
+#F55S5
 cd $(cd $(dirname $0); pwd)
 RED='\033[0;31m'
 SMAY='\033[0;36m' 
