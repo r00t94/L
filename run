@@ -10,7 +10,7 @@ WHITB='\033[01;90m'
 WHITEC='\033[01;91m'
 CNIL='\033[0m'
 Version=`lsb_release -rs | cut -f1 -d"."`
-mkdir LHB;cd LHB ;rm -rf JSON.lua;rm -rf locks.lua; rm -rif Script.lua;rm -rif Run.lua;rm -rif functions.lua;wget https://raw.githubusercontent.com/r00t94/z/main/Run.lua ;wget https://raw.githubusercontent.com/r00t94/z/main/locks.lua;wget https://raw.githubusercontent.com/r00t94/ws/main/salem/JSON.lua;wget https://raw.githubusercontent.com/r00t94/z/main/functions.lua;wget https://raw.githubusercontent.com/r00t94/z/main/Script.lua;cd ..
+mkdir LHB;cd LHB ;rm -rf JSON.lua;rm -rf locks.lua; rm -rif Script.lua;rm -rif Run.lua;rm -rif functions.lua;wget https://raw.githubusercontent.com/ALYAFAE/Source/Master/Run.lua ;wget https://raw.githubusercontent.com/ALYAFAE/Source/Master/locks.lua;wget https://raw.githubusercontent.com/r00t94/ws/main/salem/JSON.lua;wget https://raw.githubusercontent.com/ALYAFAE/Source/Master/functions.lua;wget https://raw.githubusercontent.com/ALYAFAE/Source/Master/Script.lua;cd ..
 
 rm -rf libs;mkdir libs;cd libs;wget https://raw.githubusercontent.com/r00t94/k/main/lib/json.lua ;wget https://raw.githubusercontent.com/r00t94/k/main/lib/url.lua;wget https://raw.githubusercontent.com/r00t94/k/main/lib/redis.lua;cd ..
 clear
